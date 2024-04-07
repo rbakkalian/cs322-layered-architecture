@@ -21,7 +21,7 @@ public class BankingControllerImpl implements BankingController {
     @Override
     @PostMapping
     public String createAccount(@RequestBody CreateBankingRequest request) {
-        return null;
+        return bankService.createAccount(request.isDebit(), request.id());
     }
 }
 
