@@ -1,6 +1,7 @@
 package am.cs322;
 
-import am.cs322.model.CreateUserRequest;
+import am.cs322.Presentation.UserController;
+import am.cs322.Presentation.model.CreateUserRequest;
 import am.cs322.model.UserDTO;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

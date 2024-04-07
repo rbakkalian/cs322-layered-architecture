@@ -1,6 +1,8 @@
-package am.cs322;
+package am.cs322.Presentation;
 
-import am.cs322.model.CreateUserRequest;
+import am.cs322.Presentation.UserController;
+import am.cs322.UserService;
+import am.cs322.Presentation.model.CreateUserRequest;
 import am.cs322.model.UserDTO;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
